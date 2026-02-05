@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos - El Kéfir de la Abuela</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: #1e1e2f;
+            color: #f0f0f0;
+        }
+        header {
+            background-color: #8e44ad;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #fce4ec;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #f0f0f0;
+            font-weight: bold;
+        }
+        .contenedor {
+            max-width: 1000px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 0 20px;
+        }
+        .tarjeta {
+            background-color: #2c2c3e;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .tarjeta:hover {
+            transform: translateY(-5px);
+        }
+        .tarjeta img {
+            width: 220px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+        .tarjeta h2 {
+            color: #f9c5d1;
+            margin-bottom: 10px;
+        }
+        .tarjeta p {
+            font-size: 1em;
+            line-height: 1.5;
+            color: #e0e0e0;
+        }
+        .precio {
+            font-size: 1.3em;
+            color: #ff9f43;
+            margin: 15px 0;
+        }
+        .boton {
+            display: inline-block;
+            background-color: #25D366; /* color verde WhatsApp */
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .boton:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Kéfir de la Abuela</h1>
+        <nav>
+            <a href="kefir de la abuela.html">Inicio</a> |
+            <a href="beneficios.html">Beneficios</a> |  
+        </nav>
+    </header>
+
+    <section class="contenedor">
+        <!-- Presentación 1 -->
+        <div class="tarjeta">
+            <img src="Ilustración animada .png" alt="Botella de kéfir 1 litro">
+            <h2>Kéfir de leche con búlgaros - 1 litro</h2>
+            <p>La medida perfecta para empezar a cuidar tu salud con el sabor auténtico de la tradición.</p>
+            <p class="precio">$22.000 COP</p>
+            <a href="https://wa.me/573054752827?text=Hola,%20quiero%20hacer%20un%20pedido%20de%20kéfir%20de%201%20litro" class="boton">Haz tu pedido</a>
+        </div>
+
+        <!-- Presentación 2 -->
+        <div class="tarjeta">
+            <img src="Ilustración animada .1.png" alt="Botella de kéfir 2 litros">
+            <h2>Kéfir de leche con búlgaros - 2 litros</h2>
+            <p>Más cantidad para que nunca falte en tu hogar: bienestar y energía en cada vaso.</p>
+            <p class="precio">$40.000 COP</p>
+            <a href="https://wa.me/573054752827?text=Hola,%20quiero%20hacer%20un%20pedido%20de%20kéfir%20de%202%20litros" class="boton">Haz tu pedido</a>
+        </div>
+
+        <!-- Presentación 3 -->
+        <div class="tarjeta">
+            <img src="Ilustración animada .2.png" alt="Pack de kéfir 3 litros">
+            <h2>Kéfir de leche con búlgaros - 3 litros</h2>
+            <p>La opción ideal para compartir en familia: tradición, salud y cariño en cada sorbo.</p>
+            <p class="precio">$60.000 COP</p>
+            <a href="https://wa.me/573054752827?text=Hola,%20quiero%20hacer%20un%20pedido%20de%20kéfir%20de%203%20litros" class="boton">Haz tu pedido</a>
+        </div>
+    </section>
+</body>
+</html>
